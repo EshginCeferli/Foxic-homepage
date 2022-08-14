@@ -1,0 +1,464 @@
+main {
+  background-color: whitesmoke;
+}
+#nav-logo {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255, 0.7);
+}
+
+#nav-logo .icons .heart,
+#nav-logo .icons .basket {
+  position: relative;
+}
+
+#nav-logo .icons i:hover {
+  color: #33cad5;
+  transition: all 0.3s;
+  transform: scale(1.2);
+}
+
+#nav-logo .icons span {
+  position: absolute;
+  display: flex;
+  bottom: 4px;
+  justify-content: center;
+  align-items: center;
+  left: 6px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #33cad5;
+
+  font-size: 15px;
+  transition: none;
+  transform: none;
+}
+#nav-logo .logo {
+  height: 100%;
+  padding-left: 50px;
+  font-size: 48px;
+  cursor: pointer;
+}
+
+#nav-logo .nav ul {
+  display: flex;
+  list-style: none;
+}
+
+#nav-logo .nav ul li {
+  margin: 1rem;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+#nav-logo .nav ul li:hover {
+  color: #33cad5;
+  cursor: pointer;
+}
+
+#nav-logo .icons {
+  display: flex;
+  padding-right: 5rem;
+  justify-content: right;
+}
+
+#nav-logo .icons i {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+#nav-logo .icons .my-icons:hover {
+  color: #33cad5;
+}
+
+#slide {
+  padding-top: 5.5em;
+}
+
+div > img {
+  display: block;
+  overflow: hidden;
+}
+img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+#slide .my-fluid {
+  width: 107%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#slide .slide-img {
+  display: flex;
+  flex-direction: column;
+  height: 680px;
+  background-image: url(../images/file-20211018-27-10mqkvf.avif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#slide .slide-img h1 {
+  font-size: 6em;
+  font-weight: bolder;
+}
+
+#slide .slide-img h1 span {
+  color: rgb(51, 184, 184);
+}
+
+#slide .slide-img button {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+  width: 10em;
+  border-radius: 23px;
+  margin-top: 4em;
+  background-color: white;
+  border: none;
+}
+
+#slide .slide-img button:hover {
+  background-color: #33cad5;
+}
+
+#links {
+  padding-top: 1em;
+  margin-bottom: 6em;
+  background-color: white;
+  cursor: pointer;
+}
+
+#links .icon {
+  padding: 10px 10px 10px 40px;
+}
+#links .icon i {
+  font-size: 2.3em;
+  opacity: 0.7;
+}
+
+#links .col-3 > div {
+  display: flex;
+}
+
+#links .col-3 .col-4 > div {
+  height: 100%;
+}
+
+#contents-1 h2 {
+  font-weight: 800;
+  margin-bottom: 1em;
+}
+
+#contents-1 h6 {
+  margin-top: 20px;
+}
+
+#contents-1 .my-card {
+  height: 26em;
+  text-align: center;
+  cursor: pointer;
+}
+
+#contents-1 .my-card .my-box {
+  height: 20em;
+}
+
+#contents-1 .my-card p {
+  font-weight: 700;
+  margin: -5px;
+}
+
+#contents-1 img {
+  height: 100%;
+}
+
+#contents-1 .my-list i {
+  color: yellow;
+}
+#contents-1 .my-list i:hover {
+  transform: scale(1.6);
+  transition: all 0.2s;
+}
+#collage-1 {
+  padding-top: 7em;
+  background: whitesmoke;
+  padding-bottom: 5em;
+}
+
+#collage-1 h2,
+h1 {
+  font-weight: 100;
+  color: #0e6369;
+}
+#collage-1 .img {
+  height: 28em;
+  position: relative;
+}
+#collage-1 .img img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+#collage-1 .col-4 > .img {
+  height: 28em;
+}
+#collage-1 .img .shop-now {
+  position: absolute;
+  bottom: 4em;
+  right: 17px;
+}
+
+#collage-1 .collage-middle .img {
+  height: 13em;
+  margin-bottom: 2em;
+}
+#collage-1 .collage-right .img {
+  height: 13em;
+  margin-bottom: 2em;
+}
+
+#collage-1 .collage-middle .up .shop-now,
+.collage-right .up .shop-now {
+  top: 3em;
+  left: 3em;
+}
+
+#collage-1 .collage-middle .down .shop-now {
+  bottom: 3em;
+  right: 4em;
+}
+
+.down .shop-now {
+  bottom: 3em !important;
+  right: 4em !important;
+}
+
+#collage-1 button {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+  width: 10em;
+  border-radius: 23px;
+  margin-top: 1em;
+  background-color: #0e6369;
+  color: white;
+  border: none;
+}
+
+#collage-1 button:hover {
+  background-color: black;
+  color: white;
+}
+
+#warning {
+  padding-top: 2em;
+  background-color: white;
+}
+#warning h1 {
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+#important .col-3 > div {
+  height: 18em;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+
+#important .img {
+  height: 85%;
+  padding: 47px;
+}
+
+#important .img img {
+  height: 100%;
+  width: 100%;
+}
+
+#important h1 {
+  font-weight: 700;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+#important .text h6 {
+  text-align: center;
+}
+
+#blogs {
+  padding-top: 5em;
+  padding-bottom: 3em;
+  margin-top: 5em;
+  background: white;
+}
+
+#blogs h1 {
+  font-weight: 700;
+  margin-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+#blogs .blog-card {
+  height: 14em;
+}
+
+#blogs .blog-img {
+  height: 80%;
+}
+
+#blogs .blog-img img {
+  height: 100%;
+  width: 100%;
+}
+
+#blogs .blog-card .blog-name,
+.blog-date {
+  margin-top: 1em;
+  text-align: center;
+}
+
+#blogs .blog-card .blog-name:hover {
+  color: #33cad5;
+  cursor: pointer;
+}
+#blogs .blog-card .blog-date {
+  opacity: 0.5;
+}
+
+.img-thumbnail {
+  border: none;
+}
+
+.single-div {
+  display: flex;
+  height: 8em;
+  width: 100%;
+  background-color: #33cad5;
+  margin-bottom: 3em;
+  margin-top: 4em;
+}
+
+.single-div .icon-gift {
+  display: flex;
+  position: relative;
+  width: 30%;
+}
+.single-div .icon-gift i {
+  position: absolute;
+  font-size: 3em;
+  right: 1em;
+  top: 1em;
+}
+.single-div .icon-gift i:hover {
+  transform: scale(1.4);
+  transition: all 0.2s;
+}
+
+.single-div .text {
+  width: 40%;
+  padding-top: 3em;
+}
+
+.single-div .text {
+  color: white;
+}
+
+.single-div .button-purchase {
+  display: flex;
+  position: relative;
+  width: 30%;
+  top: 2em;
+  left: 3em;
+}
+
+.single-div .button-purchase button {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+  width: 10em;
+  border-radius: 23px;
+  margin-top: 1em;
+  background-color: white;
+  border: none;
+}
+.single-div .button-purchase button:hover {
+  background-color: black;
+  color: white;
+}
+
+#footer .socials ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  column-gap: 26px;
+  row-gap: 13px;
+  padding-left: 1px;
+  padding-right: 12px;
+}
+
+#footer .socials ul li {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background: white;
+  padding-left: 7px;
+  padding-top: 4px;
+}
+
+#footer .socials ul li:hover {
+  background-color: #33cad5;
+  color: white;
+
+  transition: all 0.3s;
+}
+
+#footer .socials li i {
+  font-size: 18px;
+  color: #33cad5;
+}
+
+#footer .socials li i:hover {
+  color: white;
+
+  transition: all 0.3s;
+}
+
+#footer .news-letter input {
+  background-color: rgb(232, 232, 232);
+  border: none;
+  outline: none;
+  height: 34px;
+}
+
+#footer .news-letter button {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 13px;
+  padding: 11px 28px;
+  cursor: pointer;
+  width: 10em;
+  border-radius: 23px;
+  margin-top: 1em;
+  background-color: #33cad5;
+  border: none;
+  color: white;
+}
+#footer .news-letter button:hover {
+  background-color: black;
+}
